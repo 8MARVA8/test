@@ -2,6 +2,23 @@
 
 class MyClass {
     private $var1;
+    private $isVar;
+
+    /**
+     * @return mixed
+     */
+    public function getIsVar()
+    {
+        return $this->isVar;
+    }
+
+    /**
+     * @param mixed $isVar
+     */
+    public function setIsVar($isVar)
+    {
+        $this->isVar = $isVar;
+    }
 
     /**
      * @return mixed
