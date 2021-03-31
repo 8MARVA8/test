@@ -2,4 +2,4 @@
 
 echo "Test";
 
-exit("Testik");
+exit("Testik ");
